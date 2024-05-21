@@ -11,7 +11,7 @@
         <a :href="user.html_url" target="_blank" class="card-link"
           >Github Profile</a
         >
-        <a :href="user.blog" target="_blank" class="card-link">My Website</a>
+        <a :href="'https://' + user.blog" target="_blank" class="card-link">My Website</a>
       </div>
     </div>
   </div>
